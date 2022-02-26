@@ -59,9 +59,11 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         } else if (gameTurn == 1) {
             game = getResources().getStringArray(R.array.scenario_2);
         } else if (gameTurn == 2) {
-            game = getResources().getStringArray(R.array.scenario_1);
+            game = getResources().getStringArray(R.array.scenario_3);
         } else if (gameTurn == 3) {
-            game = getResources().getStringArray(R.array.scenario_2);
+            game = getResources().getStringArray(R.array.scenario_4);
+        } else if (gameTurn == 4) {
+            game = getResources().getStringArray(R.array.scenario_5);
         } else if (gameTurn == 5) {
             game = getResources().getStringArray(R.array.scenario_1);
         } else if (gameTurn == 6) {
@@ -77,8 +79,6 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         } else if (gameTurn == 11) {
             game = getResources().getStringArray(R.array.scenario_1);
         } else if (gameTurn == 12) {
-            game = getResources().getStringArray(R.array.scenario_1);
-        } else if (gameTurn == 13) {
             game = getResources().getStringArray(R.array.scenario_1);
         }
     }

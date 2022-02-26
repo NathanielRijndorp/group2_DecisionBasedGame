@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
         // button when clicked goes to GameScreen activity
-        startGame = (Button) findViewById(R.id.startNigga);
+        startGame = (Button) findViewById(R.id.startGame);
         startGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         // button when clicked goes to credits
-        credits = (Button) findViewById(R.id.creditsNigga);
+        credits = (Button) findViewById(R.id.creditsRoll);
         credits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //This is to make the startNigga text color rainbow
-        TextView textview = findViewById(R.id.startNigga);
+        TextView textview = findViewById(R.id.startGame);
         setTextView(textview,
                 ResourcesCompat.getColor(getResources(), R.color.rainbow1, null),
                 ResourcesCompat.getColor(getResources(), R.color.rainbow2, null),
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 ResourcesCompat.getColor(getResources(), R.color.rainbow6, null)
         );
         //This is to make the creditsNigga text color rainbow
-        TextView textview2 = findViewById(R.id.creditsNigga);
+        TextView textview2 = findViewById(R.id.creditsRoll);
         setTextView(textview2,
                 ResourcesCompat.getColor(getResources(), R.color.rainbow3, null),
                 ResourcesCompat.getColor(getResources(), R.color.rainbow4, null),

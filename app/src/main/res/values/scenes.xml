@@ -2,151 +2,321 @@
 <resources>
     <string-array name="default_text">
         //Scenario Prompt
-        <item>You are in Biology class, your teacher is discussing about the Performance Task that is due on Monday. What do you do?</item>
+        <item>What class are you</item>
         //Choices
-        <item>This is choice1.</item>
-        <item>This is choice2.</item>
-        <item>This is choice3.</item>
-        <item>This is choice4.</item>
-        //1st Choice Directory?
-        <item>dialog_1_1</item>
-        //2nd Choice Directory?
-        <item>dialog_1_2</item>
-        //3rd Choice Directory?
-        <item>dialog_1_3</item>
-        //4th Choice Directory?
-        <item>dialog_1_4</item>
-        //character state
-        <item>character 1</item>
-        //background state
-        <item>background 1</item>
-        //Type of Scenario
-        <item>Dialog</item>
-        //dag dag lang pag may time
-        //Scenario 1_1 Text
-        <item>hi1 </item>
-        //Scenario 1_1 Choice 1
-        <item>hi2 </item>
-        //Scenario 1_1 Choice 2
-        <item>hi3 </item>
-        //Scenario 1_1 Choice 3
-        <item>hi4 </item>
-        //Scenario 1_1 Choice 4
-        <item>hi5 </item>
-        //Scenario 1_2 Text
-        <item>hi6 </item>
-        //Scenario 1_2 Choice 1
-        <item>hi7 </item>
-        //Scenario 1_2 Choice 2
-        <item>hi8 </item>
-        //Scenario 1_2 Choice 3
-        <item>hi9 </item>
-        //Scenario 1_2 Choice 4
-        <item>hi10 </item>
-        //Scenario 1_3 Text
-        <item>hi11 </item>
-        //Scenario 1_3 Choice 1
-        <item>hi12 </item>
-        //Scenario 1_3 Choice 2
-        <item>hi13 </item>
-        //Scenario 1_3 Choice 3
-        <item>hi14 </item>
-        //Scenario 1_3 Choice 4
-        <item>hi15 </item>
-        //Scenario 1_4 Text
-        <item>hi16 </item>
-        //Scenario 1_4 Choice 1
-        <item>hi17 </item>
-        //Scenario 1_4 Choice 2
-        <item>hi18 </item>
-        //Scenario 1_4 Choice 3
-        <item>hi19 </item>
-        //Scenario 1_4 Choice 4
-        <item>hi20 </item>
+        <item>warrior</item>
+        <item>mage</item>
+        <item>archer</item>
+        <item>assassin</item>
     </string-array>
     <string-array name="scenario_1">
         //Scenario 1_1 Text
-        <item>hi1 </item>
+        <item>Scenario 1_1 Text </item>
+
         //Scenario 1_1 Choice 1
-        <item>hi2 </item>
+        <item>Scenario 1_1 Choice 1 </item>
+
         //Scenario 1_1 Choice 2
-        <item>hi3 </item>
+        <item>Scenario 1_1 Choice 2 </item>
+
         //Scenario 1_1 Choice 3
-        <item>hi4 </item>
+        <item>Scenario 1_1 Choice 3 </item>
+
         //Scenario 1_1 Choice 4
-        <item>hi5 </item>
+        <item>Scenario 1_1 Choice 4</item>
+
         //Scenario 1_2 Text
-        <item>hi6 </item>
+        <item>Scenario 1_2 Text </item>
+
         //Scenario 1_2 Choice 1
-        <item>hi7 </item>
+        <item>Scenario 1_2 Choice 1 </item>
+
         //Scenario 1_2 Choice 2
-        <item>hi8 </item>
+        <item>Scenario 1_2 Choice 2 </item>
+
         //Scenario 1_2 Choice 3
-        <item>hi9 </item>
+        <item>Scenario 1_2 Choice 3 </item>
+
         //Scenario 1_2 Choice 4
-        <item>hi10 </item>
+        <item>Scenario 1_2 Choice 4 </item>
+
         //Scenario 1_3 Text
-        <item>hi11 </item>
+        <item>Scenario 1_3 Text </item>
+
         //Scenario 1_3 Choice 1
-        <item>hi12 </item>
+        <item>Scenario 1_3 Choice 1 </item>
+
         //Scenario 1_3 Choice 2
-        <item>hi13 </item>
+        <item>Scenario 1_3 Choice 2 </item>
+
         //Scenario 1_3 Choice 3
-        <item>hi14 </item>
+        <item>Scenario 1_3 Choice 3 </item>
+
         //Scenario 1_3 Choice 4
-        <item>hi15 </item>
+        <item>Scenario 1_3 Choice 4 </item>
+
         //Scenario 1_4 Text
-        <item>hi16 </item>
+        <item>Scenario 1_4 Text </item>
+
         //Scenario 1_4 Choice 1
-        <item>hi17 </item>
+        <item>Scenario 1_4 Choice 1 </item>
+
         //Scenario 1_4 Choice 2
-        <item>hi18 </item>
+        <item>Scenario 1_4 Choice 2 </item>
+
         //Scenario 1_4 Choice 3
-        <item>hi19 </item>
+        <item>Scenario 1_4 Choice 3 </item>
+
         //Scenario 1_4 Choice 4
-        <item>hi20 </item>
+        <item>Scenario 1_4 Choice 4 </item>
+
     </string-array>
     <string-array name="scenario_2">
-        //Scenario 1_1 Text
-        <item>hello1 </item>
-        //Scenario 1_1 Choice 1
-        <item>hello2 </item>
-        //Scenario 1_1 Choice 2
-        <item>hello3 </item>
-        //Scenario 1_1 Choice 3
-        <item>hello4 </item>
-        //Scenario 1_1 Choice 4
-        <item>hello5 </item>
-        //Scenario 1_2 Text
-        <item>hello6 </item>
-        //Scenario 1_2 Choice 1
-        <item>hello7 </item>
-        //Scenario 1_2 Choice 2
-        <item>hello8 </item>
-        //Scenario 1_2 Choice 3
-        <item>hello9 </item>
-        //Scenario 1_2 Choice 4
-        <item>hello10 </item>
-        //Scenario 1_3 Text
-        <item>hello11 </item>
-        //Scenario 1_3 Choice 1
-        <item>hello12 </item>
-        //Scenario 1_3 Choice 2
-        <item>hello13 </item>
-        //Scenario 1_3 Choice 3
-        <item>hello14 </item>
-        //Scenario 1_3 Choice 4
-        <item>hello15 </item>
-        //Scenario 1_4 Text
-        <item>hello16 </item>
-        //Scenario 1_4 Choice 1
-        <item>hello17 </item>
-        //Scenario 1_4 Choice 2
-        <item>hello18 </item>
-        //Scenario 1_4 Choice 3
-        <item>hello19 </item>
-        //Scenario 1_4 Choice 4
-        <item>hello20 </item>
-    </string-array>
+        //Scenario 2_1 Text
+        <item>Scenario 2_1 Text </item>
 
+        //Scenario 2_1 Choice 1
+        <item>Scenario 2_1 Choice 1 </item>
+
+        //Scenario 2_1 Choice 2
+        <item>Scenario 2_1 Choice 2 </item>
+
+        //Scenario 2_1 Choice 3
+        <item>Scenario 2_1 Choice 3 </item>
+
+        //Scenario 2_1 Choice 4
+        <item>Scenario 2_1 Choice 4 </item>
+
+        //Scenario 2_2 Text
+        <item>Scenario 2_2 Text </item>
+
+        //Scenario 2_2 Choice 1
+        <item>Scenario 2_2 Choice 1 </item>
+
+        //Scenario 2_2 Choice 2
+        <item>Scenario 2_2 Choice 2 </item>
+
+        //Scenario 2_2 Choice 3
+        <item>Scenario 2_2 Choice 3 </item>
+
+        //Scenario 2_2 Choice 4
+        <item>Scenario 2_2 Choice 4 </item>
+
+        //Scenario 2_3 Text
+        <item>Scenario 2_3 Text </item>
+
+        //Scenario 2_3 Choice 1
+        <item>Scenario 2_3 Choice 1 </item>
+
+        //Scenario 2_3 Choice 2
+        <item>Scenario 2_3 Choice 2 </item>
+
+        //Scenario 2_3 Choice 3
+        <item>Scenario 2_3 Choice 3 </item>
+
+        //Scenario 2_3 Choice 4
+        <item>Scenario 2_3 Choice 4 </item>
+
+        //Scenario 2_4 Text
+        <item>Scenario 2_4 Text </item>
+
+        //Scenario 2_4 Choice 1
+        <item>Scenario 2_4 Choice 1 </item>
+
+        //Scenario 2_4 Choice 2
+        <item>Scenario 2_4 Choice 2</item>
+
+        //Scenario 2_4 Choice 3
+        <item>Scenario 2_4 Choice 3 </item>
+
+        //Scenario 2_4 Choice 4
+        <item>Scenario 2_4 Choice 4 </item>
+
+    </string-array>
+    <string-array name="scenario_3">
+        //Scenario 3_1 Text
+        <item>Scenario 3_1 Text </item>
+
+        //Scenario 3_1 Choice 1
+        <item>Scenario 3_1 Choice 1 </item>
+
+        //Scenario 3_1 Choice 2
+        <item>Scenario 3_1 Choice 2 </item>
+
+        //Scenario 3_1 Choice 3
+        <item>Scenario 3_1 Choice 3 </item>
+
+        //Scenario 3_1 Choice 4
+        <item>Scenario 3_1 Choice 4 </item>
+
+        //Scenario 3_2 Text
+        <item>Scenario 3_2 Text </item>
+
+        //Scenario 3_2 Choice 1
+        <item>Scenario 3_2 Choice 1 </item>
+
+        //Scenario 3_2 Choice 2
+        <item>Scenario 3_2 Choice 2 </item>
+
+        //Scenario 3_2 Choice 3
+        <item>Scenario 3_2 Choice 3 </item>
+
+        //Scenario 3_2 Choice 4
+        <item>Scenario 3_2 Choice 4 </item>
+
+        //Scenario 3_3 Text
+        <item>Scenario 3_3 Text </item>
+
+        //Scenario 3_3 Choice 1
+        <item>Scenario 3_3 Choice 1 </item>
+
+        //Scenario 3_3 Choice 2
+        <item>Scenario 3_3 Choice 2 </item>
+
+        //Scenario 3_3 Choice 3
+        <item>Scenario 3_3 Choice 3 </item>
+
+        //Scenario 3_3 Choice 4
+        <item>Scenario 3_3 Choice 4 </item>
+
+        //Scenario 3_4 Text
+        <item>Scenario 3_4 Text </item>
+
+        //Scenario 3_4 Choice 1
+        <item>Scenario 3_4 Choice 1 </item>
+
+        //Scenario 3_4 Choice 2
+        <item>Scenario 3_4 Choice 2</item>
+
+        //Scenario 3_4 Choice 3
+        <item>Scenario 3_4 Choice 3 </item>
+
+        //Scenario 3_4 Choice 4
+        <item>Scenario 3_4 Choice 4 </item>
+
+    </string-array>
+    <string-array name="scenario_4">
+        //Scenario 4_1 Text
+        <item>Scenario 4_1 Text </item>
+
+        //Scenario 4_1 Choice 1
+        <item>Scenario 4_1 Choice 1 </item>
+
+        //Scenario 4_1 Choice 2
+        <item>Scenario 4_1 Choice 2 </item>
+
+        //Scenario 4_1 Choice 3
+        <item>Scenario 4_1 Choice 3 </item>
+
+        //Scenario 4_1 Choice 4
+        <item>Scenario 4_1 Choice 4 </item>
+
+        //Scenario 4_2 Text
+        <item>Scenario 4_2 Text </item>
+
+        //Scenario 4_2 Choice 1
+        <item>Scenario 4_2 Choice 1 </item>
+
+        //Scenario 4_2 Choice 2
+        <item>Scenario 4_2 Choice 2 </item>
+
+        //Scenario 4_2 Choice 3
+        <item>Scenario 4_2 Choice 3 </item>
+
+        //Scenario 4_2 Choice 4
+        <item>Scenario 4_2 Choice 4 </item>
+
+        //Scenario 4_3 Text
+        <item>Scenario 4_3 Text </item>
+
+        //Scenario 4_3 Choice 1
+        <item>Scenario 4_3 Choice 1 </item>
+
+        //Scenario 4_3 Choice 2
+        <item>Scenario 4_3 Choice 2 </item>
+
+        //Scenario 4_3 Choice 3
+        <item>Scenario 4_3 Choice 3 </item>
+
+        //Scenario 4_3 Choice 4
+        <item>Scenario 4_3 Choice 4 </item>
+
+        //Scenario 4_4 Text
+        <item>Scenario 4_4 Text </item>
+
+        //Scenario 4_4 Choice 1
+        <item>Scenario 4_4 Choice 1 </item>
+
+        //Scenario 4_4 Choice 2
+        <item>Scenario 4_4 Choice 2</item>
+
+        //Scenario 4_4 Choice 3
+        <item>Scenario 4_4 Choice 3 </item>
+
+        //Scenario 4_4 Choice 4
+        <item>Scenario 4_4 Choice 4 </item>
+
+    </string-array>
+    <string-array name="scenario_5">
+        //Scenario 5_1 Text
+        <item>Scenario 5_1 Text </item>
+
+        //Scenario 5_1 Choice 1
+        <item>Scenario 5_1 Choice 1 </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Scenario 5_1 Choice 2 </item>
+
+        //Scenario 5_1 Choice 3
+        <item>Scenario 5_1 Choice 3 </item>
+
+        //Scenario 5_1 Choice 4
+        <item>Scenario 5_1 Choice 4 </item>
+
+        //Scenario 5_2 Text
+        <item>Scenario 5_2 Text </item>
+
+        //Scenario 5_2 Choice 1
+        <item>Scenario 5_2 Choice 1 </item>
+
+        //Scenario 5_2 Choice 2
+        <item>Scenario 5_2 Choice 2 </item>
+
+        //Scenario 5_2 Choice 3
+        <item>Scenario 5_2 Choice 3 </item>
+
+        //Scenario 5_2 Choice 4
+        <item>Scenario 5_2 Choice 4 </item>
+
+        //Scenario 5_3 Text
+        <item>Scenario 5_3 Text </item>
+
+        //Scenario 5_3 Choice 1
+        <item>Scenario 5_3 Choice 1 </item>
+
+        //Scenario 5_3 Choice 2
+        <item>Scenario 5_3 Choice 2 </item>
+
+        //Scenario 5_3 Choice 3
+        <item>Scenario 5_3 Choice 3 </item>
+
+        //Scenario 5_3 Choice 4
+        <item>Scenario 5_3 Choice 4 </item>
+
+        //Scenario 5_4 Text
+        <item>Scenario 5_4 Text </item>
+
+        //Scenario 5_4 Choice 1
+        <item>Scenario 5_4 Choice 1 </item>
+
+        //Scenario 5_4 Choice 2
+        <item>Scenario 5_4 Choice 2</item>
+
+        //Scenario 5_4 Choice 3
+        <item>Scenario 5_4 Choice 3 </item>
+
+        //Scenario 5_4 Choice 4
+        <item>Scenario 5_4 Choice 4 </item>
+
+    </string-array>
 </resources>
