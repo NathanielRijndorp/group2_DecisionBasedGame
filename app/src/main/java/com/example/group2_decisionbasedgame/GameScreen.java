@@ -353,36 +353,44 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         dialogueText = findViewById(R.id.gameText);
         switch (view.getId()) {
             case R.id.button1:
+                if (gameTurn == 0) {
+                    gameState = 1;
+                }
                 setText(game[0]);
                 choice1.setText(game[1]);
                 choice2.setText(game[2]);
                 choice3.setText(game[3]);
                 choice4.setText(game[4]);
-                gameState = 1;
                 break;
             case R.id.button2:
+                if (gameTurn == 0) {
+                    gameState = 2;
+                }
                 setText(game[5]);
                 choice1.setText(game[6]);
                 choice2.setText(game[7]);
                 choice3.setText(game[8]);
                 choice4.setText(game[9]);
-                gameState = 2;
                 break;
             case R.id.button3:
+                if (gameTurn == 0) {
+                    gameState = 3;
+                }
                 setText(game[10]);
                 choice1.setText(game[11]);
                 choice2.setText(game[12]);
                 choice3.setText(game[13]);
                 choice4.setText(game[14]);
-                gameState = 3;
                 break;
             case R.id.button4:
+                if (gameTurn == 0) {
+                    gameState = 4;
+                }
                 setText(game[15]);
                 choice1.setText(game[16]);
                 choice2.setText(game[17]);
                 choice3.setText(game[18]);
                 choice4.setText(game[19]);
-                gameState = 4;
                 break;
         }
     }
