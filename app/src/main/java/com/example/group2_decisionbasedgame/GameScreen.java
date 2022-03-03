@@ -1,30 +1,30 @@
 package com.example.group2_decisionbasedgame;
 
 
-import android.content.res.Resources;
+import static android.content.ContentValues.TAG;
+
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.constraintlayout.widget.ConstraintSet;
 
-import org.w3c.dom.Text;
-
-import java.lang.reflect.Array;
 import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class GameScreen extends AppCompatActivity implements View.OnClickListener {
 
+    Animation animation;
     Button choice1, choice2, choice3, choice4;
     TextView dialogueText;
     int gameState;
@@ -40,6 +40,8 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_game_screen);
         Objects.requireNonNull(getSupportActionBar()).hide();
+
+        animation = AnimationUtils.loadAnimation(this,R.anim.transitionin);
 
         //Set the default text
         defText = getResources().getStringArray(R.array.default_text);
@@ -75,6 +77,10 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         choice2.setVisibility(View.VISIBLE);
         choice3.setVisibility(View.VISIBLE);
         choice4.setVisibility(View.VISIBLE);
+        choice1.startAnimation(animation);
+        choice2.startAnimation(animation);
+        choice3.startAnimation(animation);
+        choice4.startAnimation(animation);
     }
     public void disableButton () {
         choice1.setVisibility(View.GONE);
@@ -83,6 +89,7 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         choice4.setVisibility(View.GONE);
 
     }
+
     public void setText(final String s)
     {
         int[] i = new int[1];
@@ -122,49 +129,227 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         timer.schedule(taskEverySplitSecond, 1, 75);
         handler2.postDelayed(enabledButtonRunnable, s.length()*75);
     }
-    public void game() {
+    public void game(int gameState) {
         if (gameTurn == 0) { //Turn 1
-            game = getResources().getStringArray(R.array.dialogue1);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 1) { //Turn 2
-            game = getResources().getStringArray(R.array.scenario_1);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 2) { //Turn 3
-            game = getResources().getStringArray(R.array.scenario_3);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 3) { //Turn 4
-            game = getResources().getStringArray(R.array.scenario_4);
+            switch (gameState) {
+              case 0:
+                  game = getResources().getStringArray(R.array.scenario_1_1);
+                  break;
+              case 1:
+                  game = getResources().getStringArray(R.array.scenario_1_2);
+                  break;
+              case 2:
+                  game = getResources().getStringArray(R.array.scenario_1_3);
+                  break;
+              case 3:
+                  game = getResources().getStringArray(R.array.scenario_1_4);
+                  break;
+            }
+        }
+        else if (gameTurn == 1) { //Turn 2
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_2_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_2_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_2_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_2_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 2) { //Turn 3
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_3_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_3_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_3_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_3_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 3) { //Turn 4
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_4_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_4_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_4_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_4_4);
+                    break;
+            }
             background.setBackgroundResource(R.drawable.forestinside);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 4) { //Turn 5
-            game = getResources().getStringArray(R.array.scenario_5);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 5) {//Turn 6
-            game = getResources().getStringArray(R.array.scenario_1);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 6) {//Turn 7
-            game = getResources().getStringArray(R.array.scenario_1);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 7) {//Turn 8
-            game = getResources().getStringArray(R.array.scenario_1);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 8) {//Turn 9
-            game = getResources().getStringArray(R.array.scenario_1);
-            dialogueText.setText(" ");
-        } else if (gameTurn == 9) {//Turn 10
-            game = getResources().getStringArray(R.array.scenario_1);
-        } else if (gameTurn == 10) {//Turn 11
-            game = getResources().getStringArray(R.array.scenario_1);
-        } else if (gameTurn == 11) {//Turn 12
-            game = getResources().getStringArray(R.array.scenario_1);
-        } else if (gameTurn == 12) {//Turn 13
-            game = getResources().getStringArray(R.array.scenario_1);
+        }
+        else if (gameTurn == 4) { //Turn 5
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_5_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_5_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_5_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_5_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 5) {//Turn 6
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_5_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_5_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_5_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_5_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 6) {//Turn 7
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_5_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_5_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_5_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_5_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 7) {//Turn 8
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_5_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_5_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_5_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_5_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 8) {//Turn 9
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_5_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_5_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_5_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_5_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 9) {//Turn 10
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_5_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_5_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_5_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_5_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 10) {//Turn 11
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_5_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_5_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_5_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_5_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 11) {//Turn 12
+            switch (gameState) {
+                case 0:
+                    game = getResources().getStringArray(R.array.scenario_5_1);
+                    break;
+                case 1:
+                    game = getResources().getStringArray(R.array.scenario_5_2);
+                    break;
+                case 2:
+                    game = getResources().getStringArray(R.array.scenario_5_3);
+                    break;
+                case 3:
+                    game = getResources().getStringArray(R.array.scenario_5_4);
+                    break;
+            }
+        }
+        else if (gameTurn == 12) {//Turn 13
+            game = getResources().getStringArray(R.array.scenario_1_1);
+        }
+        else if (gameTurn == 13) {//Turn 13
+            game = getResources().getStringArray(R.array.scenario_1_1);
+        }
+        else if (gameTurn == 14) {//Turn 13
+            game = getResources().getStringArray(R.array.scenario_1_1);
+        }
+        else if (gameTurn == 15) {//Turn 13
+            game = getResources().getStringArray(R.array.scenario_1_1);
+        }
+        else if (gameTurn == 16) {//Turn 13
+            game = getResources().getStringArray(R.array.scenario_1_1);
+        }
+        else if (gameTurn == 12) {//Turn 13
+            game = getResources().getStringArray(R.array.scenario_1_1);
         }
     }
     @Override
     public void onClick(View view) {
+        Log.d(TAG, ":newGameTurn " + gameTurn);
+        Log.d(TAG, ":newResource " + game);
+        game(gameState);
+        gameTurn++;
+        dialogueText.setText(" ");
         timer.cancel();
-        game();
         dialogueText = findViewById(R.id.gameText);
         switch (view.getId()) {
             case R.id.button1:
@@ -174,7 +359,6 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 choice3.setText(game[3]);
                 choice4.setText(game[4]);
                 gameState = 1;
-                gameTurn++;
                 break;
             case R.id.button2:
                 setText(game[5]);
@@ -183,7 +367,6 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 choice3.setText(game[8]);
                 choice4.setText(game[9]);
                 gameState = 2;
-                gameTurn++;
                 break;
             case R.id.button3:
                 setText(game[10]);
@@ -192,7 +375,6 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 choice3.setText(game[13]);
                 choice4.setText(game[14]);
                 gameState = 3;
-                gameTurn++;
                 break;
             case R.id.button4:
                 setText(game[15]);
@@ -201,7 +383,6 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 choice3.setText(game[18]);
                 choice4.setText(game[19]);
                 gameState = 4;
-                gameTurn++;
                 break;
         }
     }

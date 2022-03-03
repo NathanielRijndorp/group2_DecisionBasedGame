@@ -29,7 +29,7 @@ public class Credits extends AppCompatActivity {
         setContentView(R.layout.activity_credits);
         Objects.requireNonNull(getSupportActionBar()).hide();
 
-        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.credits);
+        animation = AnimationUtils.loadAnimation(this,R.anim.credits);
 
         creditText = findViewById(R.id.creditsTextView);
         creditText.setText("CREDITS \n" + "GROUP 2 \n" + "MEMBERS \n" + "Member 1\n" + "Member 2\n" + "Member 3 \n" + "Member 4 \n");
