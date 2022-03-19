@@ -6,6 +6,7 @@ import androidx.core.content.res.ResourcesCompat;
 import android.content.Intent;
 import android.graphics.LinearGradient;
 import android.graphics.Shader;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.TextPaint;
 import android.view.View;
@@ -16,7 +17,7 @@ import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
-
+    public MediaPlayer titleScreen;
     Button startGame, credits;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +26,20 @@ public class MainActivity extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+
+
+
+        titleScreen = new MediaPlayer();
+        titleScreen = MediaPlayer.create(this, R.raw.titlescreenbgm);
+        titleScreen.start();
+        titleScreen.setLooping(true);
+
         // button when clicked goes to GameScreen activity
         startGame = (Button) findViewById(R.id.startGame);
         startGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                titleScreen.release();
                 startActivity(new Intent(getApplicationContext(),GameScreen.class));
             }
         });
@@ -38,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         credits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                titleScreen.release();
                 startActivity(new Intent(getApplicationContext(),Credits.class));
             }
         });

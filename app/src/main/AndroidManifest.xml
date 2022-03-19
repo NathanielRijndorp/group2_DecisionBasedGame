@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group2_DecisionBasedGame">
         <activity
+            android:name=".YouLost"
+            android:exported="false" />
+        <activity
             android:name=".GameScreen"
             android:exported="false"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Credits"
             android:exported="false"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
@@ -30,7 +33,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>

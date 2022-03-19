@@ -2,7 +2,7 @@
 <resources>
     <string-array name="default_text">
         //Scenario Prompt
-        <item>What class are you</item>
+        <item>Welcome to the Worlds End Table! For starters, what class are you?</item>
         //Choices
         <item>warrior</item>
         <item>mage</item>
