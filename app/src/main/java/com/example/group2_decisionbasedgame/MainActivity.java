@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),Credits.class));
             }
         });
-        //This is to make the startNigga text color rainbow
+        //This is to make the credits text color rainbow
         TextView textview = findViewById(R.id.startGame);
         setTextView(textview,
                 ResourcesCompat.getColor(getResources(), R.color.rainbow1, null),
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 ResourcesCompat.getColor(getResources(), R.color.rainbow5, null),
                 ResourcesCompat.getColor(getResources(), R.color.rainbow6, null)
         );
-        //This is to make the creditsNigga text color rainbow
+        //This is to make the credits text color rainbow
         TextView textview2 = findViewById(R.id.creditsRoll);
         setTextView(textview2,
                 ResourcesCompat.getColor(getResources(), R.color.rainbow3, null),
@@ -82,5 +82,7 @@ public class MainActivity extends AppCompatActivity {
         textView.getPaint().setShader(shader);
         textView.setTextColor(color[0]);
     }
+    public void onBackPressed() {
 
+    }
 }

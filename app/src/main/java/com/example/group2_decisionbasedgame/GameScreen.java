@@ -15,6 +15,7 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,11 +32,13 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
     Animation animation;
     Button choice1, choice2, choice3, choice4;
     TextView dialogueText;
+    int choiceEnable; //for checking how many choices you will have
     int gameState;
     int gameTurn;
-    int winState;
-    int wincondition = 1;
+    int buttonNumber; //Checks which button is clicked
+    int winCondition = 1;
     MediaPlayer bgm;
+    ImageView character;
 
     ConstraintLayout background;
     String[] defText, game; //string arrays used to pull data
@@ -50,6 +53,8 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         Objects.requireNonNull(getSupportActionBar()).hide();
 
         worldsEndTableBGM();
+
+        character = findViewById(R.id.characterImage);
 
         animation = AnimationUtils.loadAnimation(this,R.anim.transitionin);
 
@@ -82,28 +87,53 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         choice4.setText(defText[4]);
         setText(defText[0]);
     }
+
     public void enableButton () {
-        choice1.setVisibility(View.VISIBLE);
-        choice2.setVisibility(View.VISIBLE);
-        choice3.setVisibility(View.VISIBLE);
-        choice4.setVisibility(View.VISIBLE);
-        choice1.startAnimation(animation);
-        choice2.startAnimation(animation);
-        choice3.startAnimation(animation);
-        choice4.startAnimation(animation);
+        if (choiceEnable == 0) { // Default Four Choice
+            choice1.setVisibility(View.VISIBLE);
+            choice2.setVisibility(View.VISIBLE);
+            choice3.setVisibility(View.VISIBLE);
+            choice4.setVisibility(View.VISIBLE);
+            choice1.startAnimation(animation);
+            choice2.startAnimation(animation);
+            choice3.startAnimation(animation);
+            choice4.startAnimation(animation);
+        }
+        if (choiceEnable == 1) { // One Choice Only
+            choice1.setVisibility(View.VISIBLE);
+            choice1.startAnimation(animation);
+            choice2.setVisibility(View.GONE);
+            choice3.setVisibility(View.GONE);
+            choice4.setVisibility(View.GONE);
+        }
+        if (choiceEnable == 2) { // Two Choice Only
+            choice1.setVisibility(View.VISIBLE);
+            choice2.setVisibility(View.VISIBLE);
+            choice1.startAnimation(animation);
+            choice2.startAnimation(animation);
+            choice3.setVisibility(View.GONE);
+            choice4.setVisibility(View.GONE);
+        }
+        if (choiceEnable == 3) { // Three Choice Only
+            choice1.setVisibility(View.VISIBLE);
+            choice2.setVisibility(View.VISIBLE);
+            choice3.setVisibility(View.VISIBLE);
+            choice1.startAnimation(animation);
+            choice2.startAnimation(animation);
+            choice3.startAnimation(animation);
+            choice4.setVisibility(View.GONE);
+        }
     }
     public void disableButton () {
         choice1.setVisibility(View.GONE);
         choice2.setVisibility(View.GONE);
         choice3.setVisibility(View.GONE);
         choice4.setVisibility(View.GONE);
-
     }
     public void onBackPressed() {
 
     }
-    public void setText(final String s)
-    {
+    public void setText(final String s) {
         int[] i = new int[1];
         i[0] = 0;
         int length = s.length();
@@ -142,14 +172,14 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         handler2.postDelayed(enabledButtonRunnable, s.length()*75);
     }
     public void youLose (){ // returns to splash screen on lose
-        Intent loss = new Intent (this, SplashScreen.class);
+        Intent loss = new Intent (this, YouLost.class);
         startActivity(loss);
         bgm.release();
     }
     @Override
     public void onClick(View view) {
         Log.d(TAG, ":newGameTurn " + gameTurn);
-        Log.d(TAG, ":newWinState " + winState);
+        Log.d(TAG, ":newWinState " + buttonNumber);
         dialogueText.setText(" ");
         timer.cancel();
         dialogueText = findViewById(R.id.gameText);
@@ -158,7 +188,7 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 if (gameTurn == 0) {
                     gameState = 1;
                 }
-                winState = 1;
+                buttonNumber = 1;
                 nextTurn(gameState, gameTurn);
                 setText(game[0]);
                 choice1.setText(game[1]);
@@ -171,7 +201,7 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 if (gameTurn == 0) {
                     gameState = 2;
                 }
-                winState = 2;
+                buttonNumber = 2;
                 nextTurn(gameState, gameTurn);
                 setText(game[5]);
                 choice1.setText(game[6]);
@@ -184,7 +214,7 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 if (gameTurn == 0) {
                     gameState = 3;
                 }
-                winState = 3;
+                buttonNumber = 3;
                 nextTurn(gameState, gameTurn);
                 setText(game[10]);
                 choice1.setText(game[11]);
@@ -197,7 +227,7 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 if (gameTurn == 0) {
                     gameState = 4;
                 }
-                winState = 4;
+                buttonNumber = 4;
                 nextTurn(gameState, gameTurn);
                 setText(game[15]);
                 choice1.setText(game[16]);
@@ -208,35 +238,38 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                 break;
         }
         //Checks per turn
-      /*  if (gameTurn == 2) {
+        if (gameTurn == 2) {
             //gameState checks class, winState checks which button click
-            if (gameState == 1 && winState == 4) {
+            if (gameState == 1 && buttonNumber == 4) {
+
+            }
+            if (gameState == 2 && buttonNumber == 2) {
                 youLose();
             }
-            if (gameState == 2 && winState == 2) {
+            if (gameState == 3 && buttonNumber == 2) {
                 youLose();
             }
-            if (gameState == 3 && winState == 2) {
-                youLose();
-            }
-            if (gameState == 4 && winState == 4) {
+            if (gameState == 4 && buttonNumber == 4) {
                 youLose();
             }
         }
         if (gameTurn == 3) {
-            if (gameState == 1 && winState == 1) {
+            if (gameState == 1 && buttonNumber == 1) {
+
+            }
+            if (gameState == 2 && buttonNumber == 2) {
                 youLose();
             }
-            if (gameState == 2 && winState == 2) {
+            if (gameState == 3 && buttonNumber == 3) {
                 youLose();
             }
-            if (gameState == 3 && winState == 3) {
+            if (gameState == 4 && buttonNumber == 4) {
                 youLose();
             }
-            if (gameState == 4 && winState == 3) {
+        }
+        if (gameTurn == 7) {
                 youLose();
-            }
-        }*/
+        }
     }
     public void worldsEndTableBGM () {
         bgm = new MediaPlayer();
@@ -255,15 +288,19 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
             switch (gameState) {
                 case 1:
                     game = getResources().getStringArray(R.array.scenario_1_1);
+                    character.setImageResource(R.drawable.warrior);
                     break;
                 case 2:
                     game = getResources().getStringArray(R.array.scenario_1_2);
+                    character.setImageResource(R.drawable.mage);
                     break;
                 case 3:
                     game = getResources().getStringArray(R.array.scenario_1_3);
+                    character.setImageResource(R.drawable.archer);
                     break;
                 case 4:
                     game = getResources().getStringArray(R.array.scenario_1_4);
+                    character.setImageResource(R.drawable.thief);
                     break;
             }
         }
@@ -314,6 +351,7 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
                     game = getResources().getStringArray(R.array.scenario_4_4);
                     break;
             }
+            choiceEnable = 0;
             bgm.release();
             forestBGM();
             background.setBackgroundResource(R.drawable.forestinside);
@@ -464,7 +502,7 @@ public class GameScreen extends AppCompatActivity implements View.OnClickListene
         else if (gameTurn == 12) {//Turn 13
             game = getResources().getStringArray(R.array.scenario_1_1);
         }
-        if (wincondition == 0) {
+        if (winCondition == 0) {
             youLose();
         }
     }
