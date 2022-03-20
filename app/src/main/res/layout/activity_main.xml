@@ -4,21 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/kingdombackground"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="414dp"
-        android:layout_height="122dp"
+        android:layout_width="499dp"
+        android:layout_height="77dp"
+        android:alpha="0.75"
         android:fontFamily="@font/genshinfont"
-        android:text="Game Title"
-        android:textSize="70dp"
+        android:text="Solana Veritas"
+        android:textColor="@color/black"
+        android:textSize="62dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.249" />
+        app:layout_constraintVertical_bias="0.278" />
 
     <Button
         android:id="@+id/startGame"
@@ -32,11 +34,9 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="45dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/creditsRoll"
@@ -51,9 +51,8 @@
         android:textColor="@color/black"
         android:textSize="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/startGame"
+        app:layout_constraintStart_toStartOf="@+id/startGame"
         app:layout_constraintTop_toBottomOf="@+id/startGame"
         app:layout_constraintVertical_bias="0.0" />
 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bansheefightbg"
+    tools:context=".GameScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="376dp"
+        android:layout_height="309dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/bansheequeen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/archer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <TextView
+        android:id="@+id/heroHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/genshinfont"
+        android:text="TextView"
+        android:textColor="@color/seafoamgreen"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/character"
+        app:layout_constraintEnd_toEndOf="@+id/character"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toStartOf="@+id/character" />
+
+    <TextView
+        android:id="@+id/bansheeHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/genshinfont"
+        android:text="TextView"
+        android:textColor="@color/seafoamgreen"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageButton
+        android:id="@+id/btnAttack"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="?android:attr/selectableItemBackground"
+
+        android:clickable="true"
+        android:contentDescription="TODO"
+        android:focusable="true"
+        android:onClick="attackButton"
+        android:scaleType="fitXY"
+        android:text="Heal"
+        app:layout_constraintStart_toStartOf="@+id/character"
+
+        app:layout_constraintTop_toBottomOf="@+id/character"
+        app:srcCompat="@drawable/attackbutton"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnHeal"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        android:focusable="true"
+        android:onClick="healButton"
+        android:scaleType="fitXY"
+        android:text="Heal"
+        app:layout_constraintEnd_toEndOf="@+id/character"
+        app:layout_constraintTop_toBottomOf="@+id/character"
+        app:srcCompat="@drawable/healicon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

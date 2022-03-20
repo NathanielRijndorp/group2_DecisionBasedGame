@@ -2,63 +2,843 @@
 <resources>
     <string-array name="dialogue1">
         //Scenario 2_1 Text
-        <item>Scenario 2_1 Text </item>
+        <item>Sodalis; amantissimus, right this way </item>
 
 
-        <item>Scenario 2_1 Choice 1 </item>
+        <item>Follow the superintendent  </item>
 
-        <item>Scenario 2_1 Choice 2 </item>
-
-
-        <item>Scenario 2_1 Choice 3 </item>
+        <item> </item>
 
 
-        <item>Scenario 2_1 Choice 4 </item>
+        <item> </item>
+
+        <item> </item>
 
         //Scenario 2_2 Text
-        <item>Scenario 2_2 Text </item>
+        <item> </item>
 
 
-        <item>Scenario 2_2 Choice 1 </item>
+        <item> </item>
 
-        <item>Scenario 2_2 Choice 2 </item>
+        <item> </item>
 
-        <item>Scenario 2_2 Choice 3 </item>
+        <item> </item>
 
-        <item>Scenario 2_2 Choice 4 </item>
+        <item> </item>
 
         //Scenario 2_3 Text
-        <item>Scenario 2_3 Text </item>
+        <item> </item>
 
 
-        <item>Scenario 2_3 Choice 1 </item>
+        <item> </item>
 
 
-        <item>Scenario 2_3 Choice 2 </item>
+        <item> </item>
 
-        <item>Scenario 2_3 Choice 3 </item>
+        <item> </item>
 
 
-        <item>Scenario 2_3 Choice 4 </item>
+        <item> </item>
 
         //Scenario 2_4 Text
-        <item>Scenario 2_4 Text </item>
+        <item> </item>
 
 
-        <item>Scenario 2_4 Choice 1 </item>
+        <item> </item>
 
 
-        <item>Scenario 2_4 Choice 2</item>
+        <item> </item>
 
 
-        <item>Scenario 2_4 Choice 3 </item>
+        <item> </item>
 
 
-        <item>Scenario 2_4 Choice 4 </item>
+        <item> </item>
 
     </string-array>
+    <string-array name="dialogue2">
+        //Scenario 2_1 Text
+        <item>We would first like to know what class you are</item>
+
+        <item>Warrior   </item>
+
+        <item>Mage </item>
+
+        <item>Archer </item>
+
+        <item>Assassin </item>
+
+        //Scenario 2_2 Text
+        <item> </item>
 
 
+        <item> </item>
+
+        <item> </item>
+
+        <item> </item>
+
+        <item> </item>
+
+        //Scenario 2_3 Text
+        <item> </item>
+
+
+        <item> </item>
+
+
+        <item> </item>
+
+        <item> </item>
+
+
+        <item> </item>
+
+        //Scenario 2_4 Text
+        <item> </item>
+
+
+        <item> </item>
+
+
+        <item> </item>
+
+
+        <item> </item>
+
+
+        <item> </item>
+
+    </string-array>
+    <string-array name="dialogue3">
+        //Scenario 2_1 Text
+        <item>So you\'re a warrior? You look strong, welcome aboard!</item>
+
+
+        <item>Thanks, Im glad to have made it </item>
+
+        <item>I\'ll be the brawns so you guys be the brains </item>
+
+        <item>I\'ll make sure to safeguard the team </item>
+
+        <item>You\'ll all be safe as long as Im around </item>
+
+        //Scenario 2_2 Text
+        <item>So you\'re an elementalist huh, quite a rare specimen. Welcome aboard!</item>
+
+
+        <item>It is an honor to serve the King </item>
+
+        <item>My magics will help us survive the dungeon </item>
+
+        <item> By the will of our King</item>
+
+        <item>Thanks, Im mastering my art thoroughly </item>
+
+        //Scenario 2_3 Text
+        <item>So you\'re an archer? Well gladly bring you on board, welcome!</item>
+
+
+        <item>I\'ll pierce them all with my bow and arrow  </item>
+
+        <item>WIth my skills Im sure we can retrieve the staff  </item>
+
+        <item>Pleased to be a part of the kings guard  </item>
+
+        <item>Thanks, I hope to get along with my comrades  </item>
+
+        //Scenario 2_4 Text
+        <item>That\'s neat, so you\'re an assassin? We don\'t get many of your kind around, but welcome! </item>
+
+
+        <item>I know some tricks of the trade</item>
+
+
+        <item>Glad to be a part of the crew</item>
+
+
+        <item>Its nice to meet you</item>
+
+
+        <item>Heh, pleased to make your acquaintance</item>
+
+    </string-array>
+    <string-array name="dialogue4">
+        //Scenario 2_1 Text
+        <item>You go through the dark forest, withered leaves scattered throughout the ground, and it is getting dark. What would you do?</item>
+
+        <item>Walk and find a suitable shelter </item>
+
+        <item>Continue the journey </item>
+
+        <item>Camp in an open area </item>
+
+        <item>Go back to where you came from</item>
+
+        //Scenario 2_2 Text
+        <item>You go through the dark forest, withered leaves scattered throughout the ground, and it is getting dark. What would you do? </item>
+
+        <item>Walk and find a suitable shelter </item>
+
+        <item>Continue the journey </item>
+
+        <item>Camp in an open area </item>
+
+        <item>Go back to where you came from</item>
+
+        //Scenario 2_3 Text
+        <item>You go through the dark forest, withered leaves scattered throughout the ground, and it is getting dark. What would you do? </item>
+
+        <item>Walk and find a suitable shelter </item>
+
+        <item>Continue the journey </item>
+
+        <item>Camp in an open area </item>
+
+        <item>Go back to where you came from</item>
+
+        //Scenario 2_4 Text
+        <item>You go through the dark forest, withered leaves scattered throughout the ground, and it is getting dark. What would you do? </item>
+
+        <item>Walk and find a suitable shelter </item>
+
+        <item>Continue the journey </item>
+
+        <item>Camp in an open area </item>
+
+        <item>Go back to where you came from</item>
+
+    </string-array>
+    <string-array name="dialogue5">
+        //Scenario 2_1 Text
+        <item>
+            It\’s daytime and you decided to continue your journey.
+            According to the map, you only have one way to reach the necromancer\’s tower,
+            and that is to pass the place called \“Blood Grove\” which is the home of the most ferocious monsters.
+            As you enter the place you sense that something is watching you. You heard the hum of the banshee.
+        </item>
+
+        <item>Find a place to hide   </item>
+
+        <item>Run away </item>
+
+        <item>Exit the blood grove </item>
+
+        <item>Fight the banshee </item>
+
+        //Scenario 2_2 Text
+        <item> It\’s daytime and you decided to continue your journey.
+            According to the map, you only have one way to reach the necromancer\’s tower,
+            and that is to pass the place called \“Blood Grove\” which is the home of the most ferocious monsters.
+            As you enter the place you sense that something is watching you. You heard the hum of the banshee. </item>
+
+        <item>Find a place to hide   </item>
+
+        <item>Run away </item>
+
+        <item>Exit the blood grove </item>
+
+        <item>Fight the banshee </item>
+
+        //Scenario 2_3 Text
+        <item> It\’s daytime and you decided to continue your journey.
+            According to the map, you only have one way to reach the necromancer\’s tower,
+            and that is to pass the place called \“Blood Grove\” which is the home of the most ferocious monsters.
+            As you enter the place you sense that something is watching you. You heard the hum of the banshee. </item>
+
+        <item>Find a place to hide   </item>
+
+        <item>Run away </item>
+
+        <item>Exit the blood grove </item>
+
+        <item>Fight the banshee </item>
+
+        //Scenario 2_4 Text
+        <item> It\’s daytime and you decided to continue your journey.
+            According to the map, you only have one way to reach the necromancer\’s tower,
+            and that is to pass the place called \“Blood Grove\” which is the home of the most ferocious monsters.
+            As you enter the place you sense that something is watching you. You heard the hum of the banshee. </item>
+
+        <item>Find a place to hide   </item>
+
+        <item>Run away </item>
+
+        <item>Exit the blood grove </item>
+
+        <item>Fight the banshee </item>
+
+    </string-array>
+    <string-array name="dialogue6">
+        //Scenario 2_1 Text
+        <item>
+            You found an enchantment stone inside the cabin.
+            After looting you decided to continue the journey. You encountered the banshee again and decided to run.
+            The pathway that you are running at is split into two directions; left and right.
+        </item>
+
+        <item>Fight the Banshee </item>
+
+        <item>Go Left </item>
+
+        <item>Go Right </item>
+
+        <item>Try to distract it </item>
+
+        //Scenario 2_2 Text
+        <item>
+            You found an enchantment stone inside the cabin.
+            After looting you decided to continue the journey. You encountered the banshee again and decided to run.
+            The pathway that you are running at is split into two directions; left and right.
+        </item>
+
+        <item>Fight the Banshee </item>
+
+        <item>Go Left </item>
+
+        <item>Go Right </item>
+
+        <item>Try to distract it </item>
+
+        //Scenario 2_3 Text
+        <item>
+            You found an enchantment stone inside the cabin.
+            After looting you decided to continue the journey. You encountered the banshee again and decided to run.
+            The pathway that you are running at is split into two directions; left and right.
+        </item>
+
+        <item>Fight the Banshee </item>
+
+        <item>Go Left </item>
+
+        <item>Go Right </item>
+
+        <item>Try to distract it </item>
+
+        //Scenario 2_4 Text
+        <item>
+            You found an enchantment stone inside the cabin.
+            After looting you decided to continue the journey. You encountered the banshee again and decided to run.
+            The pathway that you are running at is split into two directions; left and right.
+        </item>
+
+        <item>Fight the Banshee </item>
+
+        <item>Go Left </item>
+
+        <item>Go Right </item>
+
+        <item>Try to distract it </item>
+
+    </string-array>
+    <string-array name="dialogue7">
+        //Scenario 2_1 Text
+        <item>The banshee\'s screech etches you and you are paralyzed in fear and your party enters a frenzy.</item>
+
+        <item> Calm Down ... </item>
+
+        <item> Calm Down  ? ? ?</item>
+
+        <item> Calm Down ! ! !</item>
+
+        <item> Calm Down @ @ @</item>
+
+        //Scenario 2_2 Text
+        <item>The banshee\'s screech etches you and you are paralyzed in fear and your party enters a frenzy.</item>
+
+        <item> Calm Down ... </item>
+
+        <item> Calm Down  ? ? ?</item>
+
+        <item> Calm Down ! ! !</item>
+
+        <item> Calm Down @ @ @</item>
+
+        //Scenario 2_3 Text
+        <item>The banshee\'s screech etches you and you are paralyzed in fear and your party enters a frenzy.</item>
+
+        <item> Calm Down ... </item>
+
+        <item> Calm Down  ? ? ?</item>
+
+        <item> Calm Down ! ! !</item>
+
+        <item> Calm Down @ @ @</item>
+
+        //Scenario 2_4 Text
+        <item>The banshee\'s screech etches you and you are paralyzed in fear and your party enters a frenzy.</item>
+
+        <item> Calm Down ... </item>
+
+        <item> Calm Down  ? ? ?</item>
+
+        <item> Calm Down ! ! !</item>
+
+        <item> Calm Down @ @ @</item>
+
+    </string-array>
+    <string-array name="dialogue8">
+        //Scenario 2_1 Text
+        <item>You have no other choice but to fight the Banshee Queen. </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        //Scenario 2_2 Text
+        <item>You have no other choice but to fight the Banshee Queen. </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        //Scenario 2_3 Text
+        <item>You have no other choice but to fight the Banshee Queen. </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        //Scenario 2_4 Text
+        <item>You have no other choice but to fight the Banshee Queen. </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+        <item>Fight </item>
+
+    </string-array>
+    <string-array name="dialogue9">
+        //Scenario 2_1 Text
+        <item>Is it over now? </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item> ... </item>
+
+        <item> ... </item>
+
+        //Scenario 2_2 Text
+        <item>Is it over now? </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item> ... </item>
+
+        <item> ... </item>
+
+        //Scenario 2_3 Text
+        <item>Is it over now? </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item> ... </item>
+
+        <item> ... </item>
+
+        //Scenario 2_4 Text
+        <item>Is it over now? </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item> ... </item>
+
+        <item> ... </item>
+
+    </string-array>
+    <string-array name="dialogue10">
+        //Scenario 2_1 Text
+        <item> It\'s over now, you\'ve defeated the Banshee Queen. We must press on.</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item> ... </item>
+
+        <item> ... </item>
+
+        //Scenario 2_2 Text
+        <item>It\'s over now, you\'ve defeated the Banshee Queen. We must press on.</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item> ... </item>
+
+        <item> ... </item>
+
+        //Scenario 2_3 Text
+        <item>It\'s over now, you\'ve defeated the Banshee Queen. We must press on.</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item> ... </item>
+
+        <item> ... </item>
+
+        //Scenario 2_4 Text
+        <item>It\'s over now, you\'ve defeated the Banshee Queen. We must press on.</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item> ... </item>
+
+        <item> ... </item>
+
+    </string-array>
+    <string-array name="dialogue11">
+        //Scenario 2_1 Text
+        <item>You walk the last paths and finally exit the Blood Grove.
+            You arrive at the bridge that connects the Blood Grove and the Necromancer\'s Tower.
+            The undead begin to swarm you.
+            Prepare for combat!</item>
+
+        <item>Run Away </item>
+
+        <item>Fight the swarming undead </item>
+
+        <item>Give up </item>
+
+        <item>Sacrifice the enchantment stone </item>
+
+        //Scenario 2_2 Text
+        <item>You walk the last paths and finally exit the Blood Grove.
+            You arrive at the bridge that connects the Blood Grove and the Necromancer\'s Tower.
+            The undead begin to swarm you.
+            Prepare for combat!</item>
+
+        <item>Run Away </item>
+
+        <item>Fight the swarming undead </item>
+
+        <item>Give up </item>
+
+        <item>Sacrifice the enchantment stone </item>
+
+        //Scenario 2_3 Text
+        <item>You walk the last paths and finally exit the Blood Grove.
+            You arrive at the bridge that connects the Blood Grove and the Necromancer\'s Tower.
+            The undead begin to swarm you.
+            Prepare for combat!</item>
+
+        <item>Run Away </item>
+
+        <item>Fight the swarming undead </item>
+
+        <item>Give up </item>
+
+        <item>Sacrifice the enchantment stone </item>
+
+        //Scenario 2_4 Text
+        <item>You walk the last paths and finally exit the Blood Grove.
+            You arrive at the bridge that connects the Blood Grove and the Necromancer\'s Tower.
+            The undead begin to swarm you.
+            Prepare for combat!</item>
+
+        <item>Run Away </item>
+
+        <item>Fight the swarming undead </item>
+
+        <item>Give up </item>
+
+        <item>Sacrifice the enchantment stone </item>
+
+    </string-array>
+    <string-array name="dialogue12">
+        //Scenario 2_1 Text
+        <item>You make it to the mid section of the tower,
+            you inch ever closer towards the necromancer.
+            A minotaur emerges from the summoning circle!
+            What do you do?</item>
+
+        <item>Paralyze it </item>
+
+        <item>Fight it </item>
+
+        <item>Charge towards it </item>
+
+        <item>Forfeit </item>
+
+        //Scenario 2_2 Text
+        <item>You make it to the mid section of the tower,
+            you inch ever closer towards the necromancer.
+            A minotaur emerges from the summoning circle!
+            What do you do?</item>
+
+        <item>Paralyze it </item>
+
+        <item>Fight it </item>
+
+        <item>Charge towards it </item>
+
+        <item>Forfeit </item>
+
+        //Scenario 2_3 Text
+        <item>You make it to the mid section of the tower,
+            you inch ever closer towards the necromancer.
+            A minotaur emerges from the summoning circle!
+            What do you do?</item>
+
+        <item>Paralyze it </item>
+
+        <item>Fight it </item>
+
+        <item>Charge towards it </item>
+
+        <item>Forfeit </item>
+
+        //Scenario 2_4 Text
+        <item>You make it to the mid section of the tower,
+            you inch ever closer towards the necromancer.
+            A minotaur emerges from the summoning circle!
+            What do you do?</item>
+
+        <item>Paralyze it </item>
+
+        <item>Fight it </item>
+
+        <item>Charge towards it </item>
+
+        <item>Forfeit </item>
+
+    </string-array>
+    <string-array name="dialogue13">
+        //Scenario 2_1 Text
+        <item>This is it. It\'s now or never.
+            You will now proceed to fight the Necromancer
+            that controls the Blood Grove and the Chaos Spiral.</item>
+
+        <item>... </item>
+
+        <item>...</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_2 Text
+        <item>This is it. It\'s now or never.
+            You will now proceed to fight the Necromancer
+            that controls the Blood Grove and the Chaos Spiral.</item>
+
+        <item>... </item>
+
+        <item>...</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_3 Text
+        <item>This is it. It\'s now or never.
+            You will now proceed to fight the Necromancer
+            that controls the Blood Grove and the Chaos Spiral.</item>
+
+        <item>... </item>
+
+        <item>...</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_4 Text
+        <item>This is it. It\'s now or never.
+            You will now proceed to fight the Necromancer
+            that controls the Blood Grove and the Chaos Spiral.</item>
+
+        <item>... </item>
+
+        <item>...</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+    </string-array>
+    <string-array name="dialogue14">
+        //Scenario 2_1 Text
+        <item>You enter the Necromancer\'s chamber. It glares at you and chuckles.
+            It does not seem afraid of you.
+            It provokes you, a sharp pain pierces your soul.
+            You scream in agony.
+            You prepare for the final showdown.</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_2 Text
+        <item>You enter the Necromancer\'s chamber. It glares at you and chuckles.
+            It does not seem afraid of you.
+            It provokes you, a sharp pain pierces your soul.
+            You scream in agony.
+            You prepare for the final showdown.</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_3 Text
+        <item>You enter the Necromancer\'s chamber. It glares at you and chuckles.
+            It does not seem afraid of you.
+            It provokes you, a sharp pain pierces your soul.
+            You scream in agony.
+            You prepare for the final showdown.</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_4 Text
+        <item>You enter the Necromancer\'s chamber. It glares at you and chuckles.
+            It does not seem afraid of you.
+            It provokes you, a sharp pain pierces your soul.
+            You scream in agony.
+            You prepare for the final showdown.</item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+    </string-array>
+    <string-array name="dialogue15">
+        //Scenario 2_1 Text
+        <item>You\'ve finally defeated the Necromancer.   </item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        //Scenario 2_2 Text
+        <item>You\'ve finally defeated the Necromancer.  </item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        //Scenario 2_3 Text
+        <item>You\'ve finally defeated the Necromancer.  </item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        //Scenario 2_4 Text
+        <item>You\'ve finally defeated the Necromancer.  </item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+        <item>...</item>
+
+    </string-array>
+    <string-array name="dialogue16">
+        //Scenario 2_1 Text
+        <item>You return home and return the Solana Staff. The kingdom is now at peace. ... Or is it?  </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_2 Text
+        <item>You return home and return the Solana Staff. The kingdom is now at peace. ... Or is it?  </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_3 Text
+        <item>You return home and return the Solana Staff. The kingdom is now at peace. ... Or is it?  </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        //Scenario 2_4 Text
+        <item>You return home and return the Solana Staff. The kingdom is now at peace. ... Or is it?  </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+        <item>... </item>
+
+    </string-array>
 
 
 

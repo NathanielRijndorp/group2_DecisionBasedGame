@@ -2,138 +2,146 @@
 <resources>
     <string-array name="default_text">
         //Scenario Prompt
-        <item>Welcome to the Worlds End Table! For starters, what class are you?</item>
+        <item>Welcome to the Worlds End Tavern! How can I help you?</item>
         //Choices
-        <item>warrior</item>
-        <item>mage</item>
-        <item>archer</item>
-        <item>assassin</item>
+        <item>Im here to apply for the  Research and Discovery of Lost Treasures</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
         //Scenario 1_1 Text
-        <item>Scenario 1_1_1 Text </item>
+        <item> </item>
 
         //Scenario 1_1 Choice 1
-        <item>Scenario 1_1_1 Choice 1 </item>
+        <item> </item>
 
         //Scenario 1_1 Choice 2
-        <item>Scenario 1_1_1 Choice 2 </item>
+        <item> </item>
 
         //Scenario 1_1 Choice 3
-        <item>Scenario 1_1_1 Choice 3 </item>
+        <item> </item>
 
         //Scenario 1_1 Choice 4
-        <item>Scenario 1_1_1 Choice 4</item>
+        <item> </item>
 
         //Scenario 1_2 Text
-        <item>Scenario 1_2_1 Text </item>
+        <item> </item>
 
         //Scenario 1_2 Choice 1
-        <item>Scenario 1_2_1 Choice 1 </item>
+        <item> </item>
 
         //Scenario 1_2 Choice 2
-        <item>Scenario 1_2_1 Choice 2 </item>
+        <item> </item>
 
         //Scenario 1_2 Choice 3
-        <item>Scenario 1_2_1 Choice 3 </item>
+        <item> </item>
 
         //Scenario 1_2 Choice 4
-        <item>Scenario 1_2_1 Choice 4 </item>
+        <item> </item>
 
         //Scenario 1_3 Text
-        <item>Scenario 1_3_1 Text </item>
+        <item> </item>
 
         //Scenario 1_3 Choice 1
-        <item>Scenario 1_3_1 Choice 1 </item>
+        <item> </item>
 
         //Scenario 1_3 Choice 2
-        <item>Scenario 1_3_1 Choice 2 </item>
+        <item> </item>
 
         //Scenario 1_3 Choice 3
-        <item>Scenario 1_3_1 Choice 3 </item>
+        <item> </item>
 
         //Scenario 1_3 Choice 4
-        <item>Scenario 1_3_1 Choice 4 </item>
+        <item> </item>
 
         //Scenario 1_4 Text
-        <item>Scenario 1_4_1 Text </item>
+        <item> </item>
 
         //Scenario 1_4 Choice 1
-        <item>Scenario 1_4_1 Choice 1 </item>
+        <item> </item>
 
         //Scenario 1_4 Choice 2
-        <item>Scenario 1_4_1 Choice 2 </item>
+        <item> </item>
 
         //Scenario 1_4 Choice 3
-        <item>Scenario 1_4_1 Choice 3 </item>
+        <item> </item>
 
         //Scenario 1_4 Choice 4
-        <item>Scenario 1_4_1 Choice 4 </item>
+        <item> </item>
 
     </string-array>
     <string-array name="scenario_1_1">
         //Scenario 1_1 Text
-        <item>Scenario 1_1_1 Text </item>
+        <item>As a Warrior you have been entrusted by the king and the queen to recover the powerful Solana
+            staff to restore the Sun of our lands! As you were about to head on a journey
+            towards the necromancer\'s tower, you were blocked by a bunch of bandits. </item>
 
         //Scenario 1_1 Choice 1
-        <item>Scenario 1_1_1 Choice 1 </item>
+        <item>Fight them Back </item>
 
         //Scenario 1_1 Choice 2
-        <item>Scenario 1_1_1 Choice 2 </item>
+        <item>Intimidate them </item>
 
         //Scenario 1_1 Choice 3
-        <item>Scenario 1_1_1 Choice 3 </item>
+        <item>Give up your belongings </item>
 
         //Scenario 1_1 Choice 4
-        <item>Scenario 1_1_1 Choice 4</item>
+        <item>Dash into the frey</item>
 
         //Scenario 1_2 Text
-        <item>Scenario 1_2_1 Text </item>
+        <item>As a Warrior you have been entrusted by the king and the queen to recover the powerful Solana
+            staff to restore the Sun of our lands! As you were about to head on a journey
+            towards the necromancer\'s tower, you were blocked by a bunch of bandits. </item>
 
         //Scenario 1_2 Choice 1
-        <item>Scenario 1_2_1 Choice 1 </item>
+        <item>Fight them Back </item>
 
         //Scenario 1_2 Choice 2
-        <item>Scenario 1_2_1 Choice 2 </item>
+        <item>Intimidate them </item>
 
         //Scenario 1_2 Choice 3
-        <item>Scenario 1_2_1 Choice 3 </item>
+        <item>Give up your belongings </item>
 
         //Scenario 1_2 Choice 4
-        <item>Scenario 1_2_1 Choice 4 </item>
+        <item>Dash into the frey</item>
 
         //Scenario 1_3 Text
-        <item>Scenario 1_3_1 Text </item>
+        <item>As a Warrior you have been entrusted by the king and the queen to recover the powerful Solana
+            staff to restore the Sun of our lands! As you were about to head on a journey
+            towards the necromancer\'s tower, you were blocked by a bunch of bandits. </item>
 
         //Scenario 1_3 Choice 1
-        <item>Scenario 1_3_1 Choice 1 </item>
+        <item>Fight them Back </item>
 
         //Scenario 1_3 Choice 2
-        <item>Scenario 1_3_1 Choice 2 </item>
+        <item>Intimidate them </item>
 
         //Scenario 1_3 Choice 3
-        <item>Scenario 1_3_1 Choice 3 </item>
+        <item>Give up your belongings </item>
 
         //Scenario 1_3 Choice 4
-        <item>Scenario 1_3_1 Choice 4 </item>
+        <item>Dash into the frey</item>
 
         //Scenario 1_4 Text
-        <item>Scenario 1_4_1 Text </item>
+        <item>As a Warrior you have been entrusted by the king and the queen to recover the powerful Solana
+            staff to restore the Sun of our lands! As you were about to head on a journey
+            towards the necromancer\'s tower, you were blocked by a bunch of bandits. </item>
 
         //Scenario 1_4 Choice 1
-        <item>Scenario 1_4_1 Choice 1 </item>
+        <item>Fight them Back </item>
 
         //Scenario 1_4 Choice 2
-        <item>Scenario 1_4_1 Choice 2 </item>
+        <item>Intimidate them </item>
 
         //Scenario 1_4 Choice 3
-        <item>Scenario 1_4_1 Choice 3 </item>
+        <item>Give up your belongings </item>
 
         //Scenario 1_4 Choice 4
-        <item>Scenario 1_4_1 Choice 4 </item>
+        <item>Dash into the frey</item>
 
     </string-array>
-    <string-array name="scenario_2_1">
+    <string-array name="leftRoute">
         //Scenario 2_1 Text
-        <item>Scenario 2_1_1 Text </item>
+        <item>You go through the dark forest, withered leaves scattered throughout the ground, and it is getting dark. What would you do?</item>
 
         //Scenario 2_1 Choice 1
         <item>Scenario 2_1_1 Choice 1 </item>
@@ -148,19 +156,22 @@
         <item>Scenario 2_1_1 Choice 4 </item>
 
         //Scenario 2_2 Text
-        <item>Scenario 2_2_1 Text </item>
+        <item>  You choose the left pathway. You outran the banshee again.
+            You decided to continue your journey.
+            You see the necromancer\’s tower and you feel you are getting close.
+            You stumbled upon a group of monsters. What would you do? </item>
 
         //Scenario 2_2 Choice 1
-        <item>Scenario 2_2_1 Choice 1 </item>
+        <item>Fight them</item>
 
         //Scenario 2_2 Choice 2
-        <item>Scenario 2_2_1 Choice 2 </item>
+        <item>Sneak pass</item>
 
         //Scenario 2_2 Choice 3
-        <item>Scenario 2_2_1 Choice 3 </item>
+        <item>Run towards the swamp</item>
 
         //Scenario 2_2 Choice 4
-        <item>Scenario 2_2_1 Choice 4 </item>
+        <item>Go back to the previous path</item>
 
         //Scenario 2_3 Text
         <item>Scenario 2_3_1 Text </item>
@@ -193,131 +204,346 @@
         <item>Scenario 2_4_1 Choice 4 </item>
 
     </string-array>
+    <string-array name="scenario_2_1">
+        //Scenario 2_1 Text
+        <item>You prepare your blade but realize it has been imbued with the enchantment stones power!
+            The necromancer prepares his attack.
+            The necromancer strikes you with a magic bolt! </item>
+
+        //Scenario 2_1 Choice 1
+        <item>Block it</item>
+
+        //Scenario 2_1 Choice 2
+        <item>Dodge it</item>
+
+        //Scenario 2_1 Choice 3
+        <item>Cut it</item>
+
+        //Scenario 2_1 Choice 4
+        <item>Tank it</item>
+
+        //Scenario 2_2 Text
+        <item>You prepare your blade but realize it has been imbued with the enchantment stones power!
+            The necromancer prepares his attack.
+            The necromancer strikes you with a magic bolt! </item>
+
+        //Scenario 2_1 Choice 1
+        <item>Block it</item>
+
+        //Scenario 2_1 Choice 2
+        <item>Dodge it</item>
+
+        //Scenario 2_1 Choice 3
+        <item>Cut it</item>
+
+        //Scenario 2_1 Choice 4
+        <item>Tank it</item>
+
+        //Scenario 2_3 Text
+        <item>You prepare your blade but realize it has been imbued with the enchantment stones power!
+            The necromancer prepares his attack.
+            The necromancer strikes you with a magic bolt! </item>
+
+        //Scenario 2_1 Choice 1
+        <item>Block it</item>
+
+        //Scenario 2_1 Choice 2
+        <item>Dodge it</item>
+
+        //Scenario 2_1 Choice 3
+        <item>Cut it</item>
+
+        //Scenario 2_1 Choice 4
+        <item>Tank it</item>
+
+        //Scenario 2_4 Text
+        <item>You prepare your blade but realize it has been imbued with the enchantment stones power!
+            The necromancer prepares his attack.
+            The necromancer strikes you with a magic bolt! </item>
+
+        //Scenario 2_1 Choice 1
+        <item>Block it</item>
+
+        //Scenario 2_1 Choice 2
+        <item>Dodge it</item>
+
+        //Scenario 2_1 Choice 3
+        <item>Cut it</item>
+
+        //Scenario 2_1 Choice 4
+        <item>Tank it</item>
+
+    </string-array>
     <string-array name="scenario_3_1">
         //Scenario 3_1 Text
-        <item>Scenario 3_1_1 Text </item>
+        <item>The necromancer seems unfazed.
+            You prepare to strike back but the necromancer summons a mob of undead!  </item>
 
         //Scenario 3_1 Choice 1
-        <item>Scenario 3_1_1 Choice 1 </item>
+        <item>You drink an antidote</item>
 
         //Scenario 3_1 Choice 2
-        <item>Scenario 3_1_1 Choice 2 </item>
+        <item>You prepare your shield</item>
 
         //Scenario 3_1 Choice 3
-        <item>Scenario 3_1_1 Choice 3 </item>
+        <item>You unleash a magic slash </item>
 
         //Scenario 3_1 Choice 4
-        <item>Scenario 3_1_1 Choice 4 </item>
+        <item>You target the necromancer</item>
 
         //Scenario 3_2 Text
-        <item>Scenario 3_2_1 Text </item>
+        <item>The necromancer seems unfazed.
+            You prepare to strike back but the necromancer summons a mob of undead!  </item>
 
-        //Scenario 3_2 Choice 1
-        <item>Scenario 3_2_1 Choice 1 </item>
+        //Scenario 3_1 Choice 1
+        <item>You drink an antidote</item>
 
-        //Scenario 3_2 Choice 2
-        <item>Scenario 3_2_1 Choice 2 </item>
+        //Scenario 3_1 Choice 2
+        <item>You prepare your shield</item>
 
-        //Scenario 3_2 Choice 3
-        <item>Scenario 3_2_1 Choice 3 </item>
+        //Scenario 3_1 Choice 3
+        <item>You unleash a magic slash </item>
 
-        //Scenario 3_2 Choice 4
-        <item>Scenario 3_2_1 Choice 4 </item>
+        //Scenario 3_1 Choice 4
+        <item>You target the necromancer</item>
 
         //Scenario 3_3 Text
-        <item>Scenario 3_3_1 Text </item>
+        <item>The necromancer seems unfazed.
+            You prepare to strike back but the necromancer summons a mob of undead!  </item>
 
-        //Scenario 3_3 Choice 1
-        <item>Scenario 3_3_1 Choice 1 </item>
+        //Scenario 3_1 Choice 1
+        <item>You drink an antidote</item>
 
-        //Scenario 3_3 Choice 2
-        <item>Scenario 3_3_1 Choice 2 </item>
+        //Scenario 3_1 Choice 2
+        <item>You prepare your shield</item>
 
-        //Scenario 3_3 Choice 3
-        <item>Scenario 3_3_1 Choice 3 </item>
+        //Scenario 3_1 Choice 3
+        <item>You unleash a magic slash </item>
 
-        //Scenario 3_3 Choice 4
-        <item>Scenario 3_3_1 Choice 4 </item>
+        //Scenario 3_1 Choice 4
+        <item>You target the necromancer</item>
 
         //Scenario 3_4 Text
-        <item>Scenario 3_4_1 Text </item>
+        <item>The necromancer seems unfazed.
+            You prepare to strike back but the necromancer summons a mob of undead!  </item>
 
-        //Scenario 3_4 Choice 1
-        <item>Scenario 3_4_1 Choice 1 </item>
+        //Scenario 3_1 Choice 1
+        <item>You drink an antidote</item>
 
-        //Scenario 3_4 Choice 2
-        <item>Scenario 3_4_1 Choice 2</item>
+        //Scenario 3_1 Choice 2
+        <item>You prepare your shield</item>
 
-        //Scenario 3_4 Choice 3
-        <item>Scenario 3_4_1 Choice 3 </item>
+        //Scenario 3_1 Choice 3
+        <item>You unleash a magic slash </item>
 
-        //Scenario 3_4 Choice 4
-        <item>Scenario 3_4_1 Choice 4 </item>
-
+        //Scenario 3_1 Choice 4
+        <item>You target the necromancer</item>
     </string-array>
     <string-array name="scenario_4_1">
         //Scenario 4_1 Text
-        <item>Scenario 4_1_1 Text </item>
+        <item>The necromancer seems intrigued.
+            It chants a curse towards you.
+            You are poisoned. You can\'t breathe, it hurts.  </item>
 
         //Scenario 4_1 Choice 1
-        <item>Scenario 4_1_1 Choice 1 </item>
+        <item>Use your special move </item>
 
         //Scenario 4_1 Choice 2
-        <item>Scenario 4_1_1 Choice 2 </item>
+        <item>You drink an antidote </item>
 
         //Scenario 4_1 Choice 3
-        <item>Scenario 4_1_1 Choice 3 </item>
+        <item>Full frontal assault</item>
 
         //Scenario 4_1 Choice 4
-        <item>Scenario 4_1_1 Choice 4 </item>
+        <item>Shield crash </item>
 
         //Scenario 4_2 Text
-        <item>Scenario 4_2_1 Text </item>
+        <item>The necromancer seems intrigued.
+            It chants a curse towards you. You are poisoned.
+            You can\'t breathe, it hurts.  </item>
 
-        //Scenario 4_2 Choice 1
-        <item>Scenario 4_2_1 Choice 1 </item>
+        //Scenario 4_1 Choice 1
+        <item>Use your special move </item>
 
-        //Scenario 4_2 Choice 2
-        <item>Scenario 4_2_1 Choice 2 </item>
+        //Scenario 4_1 Choice 2
+        <item>You drink an antidote </item>
 
-        //Scenario 4_2 Choice 3
-        <item>Scenario 4_2_1 Choice 3 </item>
+        //Scenario 4_1 Choice 3
+        <item>Full frontal assault</item>
 
-        //Scenario 4_2 Choice 4
-        <item>Scenario 4_2_1 Choice 4 </item>
+        //Scenario 4_1 Choice 4
+        <item>Shield crash </item>
 
         //Scenario 4_3 Text
-        <item>Scenario 4_3_1 Text </item>
+        <item>The necromancer seems intrigued.
+            It chants a curse towards you. You are poisoned.
+            You can\'t breathe, it hurts.  </item>
 
-        //Scenario 4_3 Choice 1
-        <item>Scenario 4_3_1 Choice 1 </item>
+        //Scenario 4_1 Choice 1
+        <item>Use your special move </item>
 
-        //Scenario 4_3 Choice 2
-        <item>Scenario 4_3_1 Choice 2 </item>
+        //Scenario 4_1 Choice 2
+        <item>You drink an antidote </item>
 
-        //Scenario 4_3 Choice 3
-        <item>Scenario 4_3_1 Choice 3 </item>
+        //Scenario 4_1 Choice 3
+        <item>Full frontal assault</item>
 
-        //Scenario 4_3 Choice 4
-        <item>Scenario 4_3_1 Choice 4 </item>
+        //Scenario 4_1 Choice 4
+        <item>Shield crash </item>
 
         //Scenario 4_4 Text
-        <item>Scenario 4_4_1 Text </item>
+        <item>The necromancer seems intrigued.
+            It chants a curse towards you. You are poisoned.
+            You can\'t breathe, it hurts.  </item>
 
-        //Scenario 4_4 Choice 1
-        <item>Scenario 4_4_1 Choice 1 </item>
+        //Scenario 4_1 Choice 1
+        <item>Use your special move </item>
 
-        //Scenario 4_4 Choice 2
-        <item>Scenario 4_4_1 Choice 2</item>
+        //Scenario 4_1 Choice 2
+        <item>You drink an antidote </item>
 
-        //Scenario 4_4 Choice 3
-        <item>Scenario 4_4_1 Choice 3 </item>
+        //Scenario 4_1 Choice 3
+        <item>Full frontal assault</item>
 
-        //Scenario 4_4 Choice 4
-        <item>Scenario 4_4_1 Choice 4 </item>
+        //Scenario 4_1 Choice 4
+        <item>Shield crash </item>
 
     </string-array>
     <string-array name="scenario_5_1">
+        //Scenario 5_1 Text
+        <item>The necromancer is getting desperate. It summons a Silver Golem!
+            But it doesn\'t seem to be activated yet.
+            It seems like it has a weakness but you don\'t know where.</item>
+
+        //Scenario 5_1 Choice 1
+        <item>Analyze it </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Full attack</item>
+
+        //Scenario 5_1 Choice 3
+        <item>Target the necromancer</item>
+
+        //Scenario 5_1 Choice 4
+        <item>Unleash your power </item>
+
+        //Scenario 5_2 Text
+        <item>The necromancer is getting desperate. It summons a Silver Golem!
+            But it doesn\'t seem to be activated yet.
+            It seems like it has a weakness but you don\'t know where.</item>
+
+        //Scenario 5_1 Choice 1
+        <item>Analyze it </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Full attack</item>
+
+        //Scenario 5_1 Choice 3
+        <item>Target the necromancer</item>
+
+        //Scenario 5_1 Choice 4
+        <item>Unleash your power </item>
+
+        //Scenario 5_3 Text
+        <item>The necromancer is getting desperate. It summons a Silver Golem!
+            But it doesn\'t seem to be activated yet.
+            It seems like it has a weakness but you don\'t know where.</item>
+
+        //Scenario 5_1 Choice 1
+        <item>Analyze it </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Full attack</item>
+
+        //Scenario 5_1 Choice 3
+        <item>Target the necromancer</item>
+
+        //Scenario 5_1 Choice 4
+        <item>Unleash your power </item>
+
+        //Scenario 5_4 Text
+        <item>The necromancer is getting desperate. It summons a Silver Golem!
+            But it doesn\'t seem to be activated yet.
+            It seems like it has a weakness but you don\'t know where.</item>
+
+        //Scenario 5_1 Choice 1
+        <item>Analyze it </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Full attack</item>
+
+        //Scenario 5_1 Choice 3
+        <item>Target the necromancer</item>
+
+        //Scenario 5_1 Choice 4
+        <item>Unleash your power </item>
+
+    </string-array>
+    <string-array name="scenario_6_1">
+        //Scenario 5_1 Text
+        <item>The necromancer is fatigued. Strike him now! This is your only chance! </item>
+
+        //Scenario 5_1 Choice 1
+        <item>Final Strike! </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Final Rush!</item>
+
+        //Scenario 5_1 Choice 3
+        <item>Warrior Unleashed!</item>
+
+        //Scenario 5_1 Choice 4
+        <item>Almighty Swing!</item>
+
+        //Scenario 5_2 Text
+        //Scenario 5_1 Text
+        <item>The necromancer is fatigued. Strike him now! This is your only chance! </item>
+
+        //Scenario 5_1 Choice 1
+        <item>Final Strike! </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Final Rush!</item>
+
+        //Scenario 5_1 Choice 3
+        <item>Warrior Unleashed!</item>
+
+        //Scenario 5_1 Choice 4
+        <item>Almighty Swing!</item>
+
+        //Scenario 5_3 Text
+        //Scenario 5_1 Text
+        <item>The necromancer is fatigued. Strike him now! This is your only chance! </item>
+
+        //Scenario 5_1 Choice 1
+        <item>Final Strike! </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Final Rush!</item>
+
+        //Scenario 5_1 Choice 3
+        <item>Warrior Unleashed!</item>
+
+        //Scenario 5_1 Choice 4
+        <item>Almighty Swing!</item>
+
+        //Scenario 5_4 Text
+        <item>The necromancer is fatigued. Strike him now! This is your only chance! </item>
+
+        //Scenario 5_1 Choice 1
+        <item>Final Strike! </item>
+
+        //Scenario 5_1 Choice 2
+        <item>Final Rush!</item>
+
+        //Scenario 5_1 Choice 3
+        <item>Warrior Unleashed!</item>
+
+        //Scenario 5_1 Choice 4
+        <item>Almighty Swing!</item>
+
+    </string-array>
+    <string-array name="scenario_7_1">
         //Scenario 5_1 Text
         <item>Scenario 5_1_1 Text </item>
 
